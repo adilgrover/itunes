@@ -69,7 +69,7 @@ const Search = () => {
           <p>No results</p>
         </div>
       )}
-      <li>
+      <nav>
         <ul className="pagination">
           {listArray?.pageIndexArr?.map((element) => (
             <li key={element} className="page-item">
@@ -83,7 +83,7 @@ const Search = () => {
             </li>
           ))}
         </ul>
-      </li>
+      </nav>
     </Container>
   );
 };
